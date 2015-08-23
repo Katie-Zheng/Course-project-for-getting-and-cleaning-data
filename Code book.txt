@@ -1,0 +1,99 @@
+==================================================================
+Human Activity Recognition Using Smartphones Dataset -- mean and std
+==================================================================
+Katie Zheng
+==================================================================
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
+Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+The experiments have been video-recorded to label the data manually. 
+==================================================================
+subjectID
+	30 volunteers, including both test group and train group
+activity 
+	six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+===================================================================
+The other variables are the mean of the variables in the original data set.
+	timeBodyaccelerometer-mean-X
+	timeBodyaccelerometer-mean-Y
+	timeBodyaccelerometer-mean-Z
+	timeGravityaccelerometer-mean-X
+	timeGravityaccelerometer-mean-Y 
+	timeGravityaccelerometer-mean-Z 
+	timeBodyaccelerometerJerk-mean-X 
+	timeBodyaccelerometerJerk-mean-Y 
+	timeBodyaccelerometerJerk-mean-Z 
+	timeBodyGyroscope-mean-X 
+	timeBodyGyroscope-mean-Y 
+	timeBodyGyroscope-mean-Z 
+	timeBodyGyroscopeJerk-mean-X 
+	timeBodyGyroscopeJerk-mean-Y 
+	timeBodyGyroscopeJerk-mean-Z 
+	timeBodyaccelerometerMagnitude-mean 
+	timeGravityaccelerometerMagnitude-mean 
+	timeBodyaccelerometerJerkMagnitude-mean 
+	timeBodyGyroscopeMagnitude-mean 
+	timeBodyGyroscopeJerkMagnitude-mean 
+	freqBodyaccelerometer-mean-X 
+	freqBodyaccelerometer-mean-Y 
+	freqBodyaccelerometer-mean-Z 
+	freqBodyaccelerometerJerk-mean-X 
+	freqBodyaccelerometerJerk-mean-Y 
+	freqBodyaccelerometerJerk-mean-Z 
+	freqBodyGyroscope-mean-X 
+	freqBodyGyroscope-mean-Y 
+	freqBodyGyroscope-mean-Z 
+	freqBodyaccelerometerMagnitude-mean 
+	freqBodyBodyaccelerometerJerkMagnitude-mean 
+	freqBodyBodyGyroscopeMagnitude-mean 
+	freqBodyBodyGyroscopeJerkMagnitude-mean 
+	timeBodyaccelerometer-std-X 
+	timeBodyaccelerometer-std-Y 
+	timeBodyaccelerometer-std-Z 
+	timeGravityaccelerometer-std-X 
+	timeGravityaccelerometer-std-Y 
+	timeGravityaccelerometer-std-Z 
+	timeBodyaccelerometerJerk-std-X 
+	timeBodyaccelerometerJerk-std-Y 
+	timeBodyaccelerometerJerk-std-Z 
+	timeBodyGyroscope-std-X 
+	timeBodyGyroscope-std-Y 
+	timeBodyGyroscope-std-Z 
+	timeBodyGyroscopeJerk-std-X 
+	timeBodyGyroscopeJerk-std-Y 
+	timeBodyGyroscopeJerk-std-Z 
+	timeBodyaccelerometerMagnitude-std 
+	timeGravityaccelerometerMagnitude-std 
+	timeBodyaccelerometerJerkMagnitude-std 
+	timeBodyGyroscopeMagnitude-std 
+	timeBodyGyroscopeJerkMagnitude-std 
+	freqBodyaccelerometer-std-X 
+	freqBodyaccelerometer-std-Y 
+	freqBodyaccelerometer-std-Z 
+	freqBodyaccelerometerJerk-std-X 
+	freqBodyaccelerometerJerk-std-Y 
+	freqBodyaccelerometerJerk-std-Z 
+	freqBodyGyroscope-std-X 
+	freqBodyGyroscope-std-Y 
+	freqBodyGyroscope-std-Z 
+	freqBodyaccelerometerMagnitude-std 
+	freqBodyBodyaccelerometerJerkMagnitude-std 
+	freqBodyBodyGyroscopeMagnitude-std 
+	freqBodyBodyGyroscopeJerkMagnitude-std
+=============================================================
+words in the variables represent the following:
+	time
+		These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
+	freq	
+		Indicate frequency domain signals. A Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. 
+	accelerometer and Gyroscope
+		The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+	Body and Gravity
+		The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+	Jerk
+		Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+	Magnitude	
+		The magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+	'-XYZ'
+		Denote 3-axial signals in the X, Y and Z directions.
+==============================================================
