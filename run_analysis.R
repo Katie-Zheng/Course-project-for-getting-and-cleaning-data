@@ -1,5 +1,5 @@
 ## --- read data --- ## 
-setwd("F:/PHBS/×ÔÑ§/±à³Ì/R/3. Getting and Cleaning Data/course project/UCI HAR Dataset")
+# setwd("F:/PHBS/Ã—Ã”Ã‘Â§/Â±Ã Â³ÃŒ/R/3. Getting and Cleaning Data/course project/UCI HAR Dataset") change to your own working directory
 # test
 Xtest = read.table("./test/X_test.txt")
 subjectTest = read.table("./test/subject_test.txt")
